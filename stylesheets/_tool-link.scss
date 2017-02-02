@@ -39,3 +39,13 @@
         @content;
     }
 }
+
+@mixin link-plain() {
+    color: currentColor;
+    background-image: none;
+    text-decoration: none !important;
+
+    @include link-hover {
+        background-image: none;
+    }
+}
