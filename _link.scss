@@ -1,16 +1,19 @@
 // ==========================================================================
-// LINK MIXIN
+// Links Mixin
 // ==========================================================================
-//
-// 
-// Sets colour of text elements to inverse of default.
-//
-// Example:
-//
-// footer {
-//    @include inverse();
-// }
-//
+
+////
+/// @group Mixins
+////
+
+/// Applies :link and :visited
+///
+/// @example scss - Basic Usage Sass
+///    .im-a-link {
+///        @include link(){
+///           background: grey;
+///       }
+///   }
 
 
 @mixin link() {
@@ -21,6 +24,14 @@
     }
 }
 
+/// Applies :focus and :hover
+///
+/// @example scss - Basic Usage Sass
+///    .im-a-link:hover {
+///        @include link-hover(){
+///           background: black;
+///       }
+///   }
 
 @mixin link-hover() {
     &:hover,
