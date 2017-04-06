@@ -1,15 +1,9 @@
 {
   "name": "mep-tools.link",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Link Tool",
   "main": "stylesheets/_tool-link.scss",
-  "eyeglass": {
-    "needs": "^1.0.0",
-    "name": "tool-link",
-    "exports": "eyeglass-exports.js"
-  },
   "keywords": [
-    "eyeglass-module",
     "sass",
     "mise-en-place"
   ],
