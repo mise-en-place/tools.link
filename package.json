@@ -1,5 +1,5 @@
 {
-  "name": "mep-tools.link",
+  "name": "@mise-en-place/tools.link",
   "version": "2.0.0",
   "description": "Link Tool",
   "main": "stylesheets/_tool-link.scss",
